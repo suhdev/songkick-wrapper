@@ -4,7 +4,7 @@
   "description": "A node wrapper around SongKick API",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine ./spec/.*"
+    "test": "jasmine"
   },
   "keywords": [
     "songkick",
@@ -12,5 +12,10 @@
     "api"
   ],
   "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.1",
+    "q": "^1.4.0",
+    "request": "^2.55.0"
+  }
 }
