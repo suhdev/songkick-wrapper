@@ -1,6 +1,6 @@
 # songkick-wrapper
 
-[![Build Status](https://secure.travis-ci.org/suhdev/songkick-wrapper.png)](http://travis-ci.org/suhdev/songkick-wrapper)
+[![Build Status](https://travis-ci.org/suhdev/songkick-wrapper.svg?branch=master)](https://travis-ci.org/suhdev/songkick-wrapper)
 
 A node.js wrapper around [songkick's](http://www.songkick.com) [API](http://www.songkick.com/developer).
 

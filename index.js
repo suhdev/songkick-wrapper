@@ -20,6 +20,12 @@ function functor(fn){
 	return def.promise;
 }
 
+function onSuccess(err,response,body){
+	if (!err && response.statusCode == 200){
+		
+	}
+}
+
 SongKick.prototype = {
 	getEventDetails:function(id,dataType){
 		return functor(function(def){
