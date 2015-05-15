@@ -34,5 +34,7 @@ Create an instance of SongKick using the factory method passing your API key:
 
 You can request an API key at songkick's [website](http://www.songkick.com/api_key_requests/new).
 
+Feel free to add/change/use the module in anyway you want. :D
+
 ### Copyright
 Copyright (c) 2015 Suhail Abood
