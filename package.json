@@ -1,6 +1,6 @@
 {
   "name": "songkick-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node wrapper around SongKick API",
   "main": "index.js",
   "scripts": {
