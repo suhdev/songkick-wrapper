@@ -122,16 +122,6 @@ var o = {
 				.createdAfter(createdAfter)
 				.get();
 	},
-	userPastEvents:function(key,id,dataType,page,order){
-		return create('http://api.songkick.com/api/3.0/users/__ID__/gigography.__DATATYPE__?apikey=__KEY__')
-				.key(key)
-				.dataType(dataType)
-				.id(id)
-				.page(page)
-				.order(order)
-				.createdAfter(createdAfter)
-				.get();
-	},
 	eventSetList:function(key,id,dataType,page,order){
 		return create('http://api.songkick.com/api/3.0/events/__ID__/setlists.__DATATYPE__?apikey=__KEY__')
 				.key(key)
