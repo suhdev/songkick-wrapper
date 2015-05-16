@@ -69,9 +69,10 @@ The module returns the 'resultsPage' skipping the outer wrapper object for conve
 	}
 ```
 
+For more details documentation, have a look at the [API's reference](http://suhdev.github.io/docs/songkick-wrapper)
+
 You can request an API key at songkick's [website](http://www.songkick.com/api_key_requests/new).
 
 Feel free to add/change/use the module in anyway you want. :D
-
 ### Copyright
 Copyright (c) 2015 Suhail Abood
