@@ -26,19 +26,19 @@ After installing/cloning the module, you can open a node console:
 
 and import the module:
 
-```sh
+```javascript
     var Songkick = require("songkick-wrapper");
 ```
 
 If GitHub repo was used then: 
 
-```sh
+```javascript
     var Songkick = require("PATH TO YOUR INSTALLATION");
 ```
 
 Create an instance of SongKick using the factory method passing your API key:
 
-```sh
+```javascript
     var songKick = SongKick.create("<YOUR API KEY>");
 
     songkick.getEventDetails("EVENT_ID","DATA_TYPE");
