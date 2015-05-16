@@ -40,6 +40,33 @@ Create an instance of SongKick using the factory method passing your API key:
 
 ```sh
     var songKick = SongKick.create("<YOUR API KEY>");
+
+    songkick.getEventDetails("EVENT_ID","DATA_TYPE");
+
+```
+
+#### The returned results 
+
+SongKick responses have the following structure: 
+
+```json
+	{
+		"resultsPage":{
+			"results":{
+
+			}
+		}
+	}
+```
+
+The module returns the 'resultsPage' skipping the outer wrapper object for convenience. See below:
+
+```json
+	{
+		"results":{
+
+		}
+	}
 ```
 
 You can request an API key at songkick's [website](http://www.songkick.com/api_key_requests/new).
