@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine"
   },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/suhdev/songkick-wrapper.git"
+  },
   "keywords": [
     "songkick",
     "songkick",
